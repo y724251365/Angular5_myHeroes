@@ -1,0 +1,19 @@
+#atitle_name{
+    color:#ccc;
+}
+#abutton_list>button{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    color:#aaa;
+    font-weight:bold;
+    background:#eee;
+    border:none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+#abutton_list>button:hover{
+    color:#0096E8;
+}

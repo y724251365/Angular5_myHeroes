@@ -1,0 +1,20 @@
+<h1 id="atitle_name">Tour of Heroes</h1>
+
+<div id="abutton_list">
+  <button (click)="isShow()">Dashboard</button>
+  <button (click)="isShow()">Heroes</button>
+</div>
+<!-- detail页面的内容 -->
+<h1>
+  <span>{{lname}}</span>
+  details!
+</h1>
+<p style="color:#64808E;font-weight:bold;">
+  id: <span>{{lid}}</span>
+</p>
+<p style="color:#64808E;font-weight:bold;">
+  name:
+  <input type="text" [(ngModel)]="heroName" [placeholder]="lname">
+  <b>{{heroName}}</b>
+</p>
+<button (click)="toBackMain()">返回</button>

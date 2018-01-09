@@ -1,0 +1,31 @@
+<h1 id="title_name">Tour of Heroes</h1>
+
+<div id="button_list">
+  <button (click)="isShow()">Dashboard</button>
+  <button (click)="isShow()">Heroes</button>
+</div>
+<div id="main">
+  <!-- 第一部分的视图 -->
+  <div class="main_1" *ngIf="showwing==true">
+    <h3>Top&nbsp;Heroes</h3>
+    <ul *ngFor="let tmp of Heroes;let i=index">
+      <li>
+        <a [routerLink]="['/detail',{id:tmp.id,name:tmp.name}]">
+          {{tmp.name}}
+        </a>      
+      </li>
+    </ul>
+  </div>
+  <!-- 第二部分的视图 -->
+  <div class="main_2" *ngIf="showwing==false">
+    <h3>My&nbsp;Heroes</h3>
+    <ul *ngFor="let tmp1 of hero">
+      <li>
+        <span class="idStyle">{{tmp1.id}}</span>
+        <a [routerLink]="['/detail',{id:tmp1.id,name:tmp1.name}]" class="nameStyle">
+          {{tmp1.name}}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+#title_name{
+    color:#ccc;
+}
+#button_list>button{
+    display:inline-block;
+    width:100px;
+    height:30px;
+    line-height:30px;
+    margin-top:20px;
+    color:#aaa;
+    font-weight:bold;
+    background:#eee;
+    border:none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+#button_list>button:hover{
+    color:#0096E8;
+}
+#main{
+    width:600px;
+}
+#main h3{
+    text-align:center;
+    color:#ccc;
+}
+#main>.main_1>ul>li{
+    list-style: none;
+    float: left;
+    width:98px;
+    height:98px;
+    line-height:98px;
+    text-align:center;
+    background:#5F7D8C;
+    border:1px solid #5F7D8C;
+    margin-right:40px;
+}
+
+.main_1>ul>li>a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+}
+.main_1>ul>li>a:hover{
+    color:#5F7D8C;
+}
+#main>.main_1>ul>li:hover{
+    background:#fff;
+    border:1px solid #ccc;
+    
+}
+#main>.main_2>ul>li{
+    list-style: none;
+    width:150px;
+    height:30px;
+    margin-left:200px;
+    line-height:30px;
+    cursor: pointer;
+}
+.main_2 .idStyle{
+    display:inline-block;
+    float:left;
+    width:30px;
+    height:30px;
+    background:#5F7D8C;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.main_2 .nameStyle{
+    display:inline-block;
+    float:left;
+    width:110px;
+    height:30px;
+    text-align:center;
+    background:#eee;
+    text-decoration:none;
+    color: #5F7D8C;
+    font-weight:bold;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.main_2 .nameStyle:hover{
+    color:white;
+    background:#CFD8DC;
+}
